@@ -1,8 +1,17 @@
-# Front end dev
+# Front End Developers - Things to know
 
-What all a front end dev should know in order to be recruitable or successful. This is a curriculumable list of topics.
+What all a front end dev should know in order to be recruitable or successful. This is a curriculumable list of topics. This is segmented into the absolute requests and topics which [raise the bar](#bar-raiser), the topics which gives you added advantage.
 
-> Curriculum courtasy Abimanyu Singh of Scaler.
+> Curriculum courtasy Abhimanyu Saxen of Scaler.
+
+
+- [Front End Developers - Things to know](#front-end-developers---things-to-know)
+  - [Curriculum](#curriculum)
+  - [Bar Raiser](#bar-raiser)
+  - [Sample Projects](#sample-projects)
+  - [Assuming covered elsewhere](#assuming-covered-elsewhere)
+
+## Curriculum
 
 - Data structures and algorithms foundation
 - Data structures and algorithms advance
@@ -28,7 +37,7 @@ What all a front end dev should know in order to be recruitable or successful. T
             - Each ingredient name should have a link to the wikipedia page of the item, clicking on the link should open it in the new page.
             - Add a link with text, “available items”, and it should link to “/cosmetics.html”
             - **Step by step guide**
-              - add the <!DOCTYPE html> declaration as the very first line of code at the top of the index.html file.
+              - add the `<!DOCTYPE html>` declaration as the very first line of code at the top of the index.html file.
               - Add head element
               - Add body element
             - Platform support must have: Side by side view of html code being written
@@ -126,130 +135,133 @@ What all a front end dev should know in order to be recruitable or successful. T
     - Pass by Reference vs. Value, deep cloning vs shallow cloning
     - Basic Operators
     - Statements vs. Expressions vs Comments
-“use strict”
-Loops, Conditions, Switch
-:? vs ??
-Short circuit evaluation
-Debugging JS
-Alert
-Console
-Debugger;
-Error Handling
-Custom Errors
-Dev Tools
-Conditional breakpoints
-Watch
-Browsers & the Event Model
-Single Threaded Nature of the Browser
-DOM Manipulation
-Render Tree
-CSSOM
-DOM built-in methods (positions, width, color getters and setters)
-Page Lifecycle Events (onload etc.)
-Loading external scripts - async, defer
-Tapping into loading errors on external resources (IMG, CSS, Scripts etc.)
-Browser Event Loop
-Events Delegation, bubbling, capturing
-Custom Events
-Mouse/Pointer & Keyboard Events
-Drag & Drop
-Scrolling
+    - “use strict”
+    - Loops, Conditions, Switch
+      - :? vs ??
+      - Short circuit evaluation
+    - Debugging JS
+      - Alert
+      - Console
+      - Debugger
+      - Error Handling
+        - Custom Errors
+      - Dev Tools
+        - Conditional breakpoints
+        - Watch
+  - Browsers & the Event Model
+    - Single Threaded Nature of the Browser
+    - DOM Manipulation
+      - Render Tree
+      - CSSOM
+      - DOM built-in methods (positions, width, color getters and setters)
+      - Page Lifecycle Events (onload etc.)
+      - Loading external scripts - async, defer
+      - Tapping into loading errors on external resources (IMG, CSS, Scripts etc.)
+    - Browser Event Loop
+      - Events Delegation, bubbling, capturing
+      - Custom Events
+      - Mouse/Pointer & Keyboard Events
+      - Drag & Drop
+      - Scrolling
+  - Default actions (form submits etc)
+    - Jank
+  - Browser Specific
+    - Accessibility
+    - SEO
+    - Semantic Web
+    - FOUC
+- JS Advanced
+  - Server side rendering, and micro frontends
+  - Debounce & Throttling
+  - Hoisting
+  - Closures
+  - JSON for interfacing with external systems.
+  - Functions
+    - Limits on Recursion & the Stack
+    - Callback Hell
+    - Memoisation
+    - … operator
+    - Immediately Invoked Functional Expressions + Named Functional 
+    - Expressions
+    - Block scope vs Functional scope - var vs let vs const
+  - Objects
+    - Prototypal Inheritance
+  - Settimeout
+  - JS Event Loop
+  - Promises
+    - Promise API
+    - Promise error handling
+    - Microtask Queue
+    - Promise Chaining
+    - Async/Await
+    - Generators
+    - Async Iteration & Generators
+    - Transform Callbacks to Promises -> Avoiding Callback Hell
+  - Currying
+  - Web Workers, Service Worker (FE2)
+- React for Frontend
+- Testing Frontend
+  - Postman
+  - Jest, Mocha and the likes
+- Bad code that works
+  - 100x coder trap avoidance
+- Deployment
+  - GIT
+  - Initialising any codebase
+  - ES6 Modules, chunking code into multiple files
+  - Linting (Prettier)
+  - Pre-commit hooks
+  - Pre-processors / Transpiler (for HTML, CSS, JS)
+    - Css-in-JS and Module CSS
+  - Polyfills / Creating Polyfills
+  - Cache Bursting with CDNs
+  - MCQs / *Assignments*
+    - How does JSX code work in the browser?
+    - Is there any way to make JSX work in the browser?
+  - Frontend Design Patterns
+  - WebSocket
+  - Web Frontend Optimisation
+  - Browser Network Layer
+    - Multiple requests
+    - Domain Sharding
+    - Caching
+    - CDNs
+    - Static assets handling
+    - Force refresh via code
+  - Web Security
+    - JS Vuln
+    - XSS
+    - Eval
+    - HTTP only cookie
 
+## Bar Raiser
 
-Default actions (form submits etc)
-Jank
-Browser Specific
-Accessibility 
-SEO
-Semantic Web
-FOUC
-JS Advanced
-Server side rendering, and micro frontends
-Debounce & Throttling
-Hoisting
-Closures
-JSON for interfacing with external systems.
-Functions
-Limits on Recursion & the Stack
-Callback Hell
-Memoisation
-… operator
-Immediately Invoked Functional Expressions + Named Functional Expressions
-Block scope vs Functional scope - var vs let vs const
-Objects
-Prototypal Inheritance
-Settimeout
-JS Event Loop
-Promises
-Promise API
-Promise error handling
-Microtask Queue
-Promise Chaining
-Async/Await
-Generators
-Async Iteration & Generators
-Transform Callbacks to Promises -> Avoiding Callback Hell
-Currying
-Web Workers, Service Worker (FE2)
-React for Frontend
-Testing Frontend
-Postman
-Jest, Mocha and the likes
-Bad code that works
-100x coder trap avoidance
-Deployment 
-GIT
-Initialising any codebase
-ES6 Modules, chunking code into multiple files
-Linting (Prettier)
-Pre-commit hooks
-Pre-processors / Transpiler (for HTML, CSS, JS)
-Css-in-JS and Module CSS
-Polyfills / Creating Polyfills 
-Cache Bursting with CDNs
-Questions / Assignments
-How does JSX code work in the browser?
-Is there any way to make JSX work in the browser?
-Frontend Design Patterns
-WebSocket
-Web Frontend Optimisation
-Browser Network Layer
-Multiple requests
-Domain Sharding
-Caching
-CDNs
-Static assets handling
-Force refresh via code
-Web Security
-JS Vuln
-XSS
-Eval
-HTTP only cookie
-Bar Raiser
-JS advanced
-Symbols in JS
-Objects Advanced
-Descriptors in JS
-Sense of web design aesthetics
-Framebursting
-fileReader API (read PDFs for example)
-Running ML/AI model in UI
-Testing
-TDD
-FE Testing frameworks
-Mocking in the browser
+- JS advanced
+  - Symbols in JS
+  - Objects Advanced
+    - Descriptors in JS
+- Sense of web design aesthetics
+- Framebursting
+- fileReader API (read PDFs for example)
+- Running ML/AI model in UI
+- Testing
+  - TDD
+  - FE Testing frameworks
+  - Mocking in the browser
 
-Sample Projects
-Responsive Page With Navbar
-Infinite Scrolling
-Auto adjusting posts (stacking containers)
-Pagination
-Kanban Board
-Add a new SSL Certificate to a Domain.
-Make a broken website work
-Cross window communication (postMessage APIs, localStorage, sessionStorage, what else?)
-Strategies to improve performance of a web application (improve lighthouse score)
+## Sample Projects
 
-Assuming covered elsewhere - 
-String, Character, Encoding UTF-8/16 etc. Emojis in DB, Browser, JSON etc.
-Regexp basics (no need to remember it all, just knowing something like this exists)
+- Responsive Page With Navbar
+- Infinite Scrolling
+- Auto adjusting posts (stacking containers)
+- Pagination
+- Kanban Board
+- Add a new SSL Certificate to a Domain.
+- Make a broken website work
+- Cross window communication (postMessage APIs, localStorage, sessionStorage, what else?)
+- Strategies to improve performance of a web application (improve lighthouse score)
+
+## Assuming covered elsewhere
+
+- String, Character, Encoding UTF-8/16 etc. Emojis in DB, Browser, JSON etc.
+- Regexp basics (no need to remember it all, just knowing something like this exists)
